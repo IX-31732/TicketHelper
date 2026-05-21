@@ -23,8 +23,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/damai_ai?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&useServerPrepStmts=false
-    username: root
-    password: 123456
+    username: 
+    password: 
   ai:
     chat:
       memory:
@@ -38,7 +38,7 @@ spring:
         model: deepseek-r1:7b
     openai:
       base-url: https://dashscope.aliyuncs.com/compatible-mode
-      api-key: sk-5383741e04eb4b03af5df4872c75f845
+      api-key: 
       chat:
         options:
           model: qwen-max-latest
@@ -48,7 +48,7 @@ spring:
           dimensions: 1024
     deepseek:
       base-url: https://api.deepseek.com
-      api-key: sk-8c2e6b105732407abf748e4c7fa2ea43
+      api-key: 
       chat:
         options:
           model: deepseek-chat
